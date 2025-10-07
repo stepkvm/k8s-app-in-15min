@@ -17,9 +17,9 @@ kubectl get svc
 if you dont want to download or create .yaml definitions just do:
 
 **'kubectl create deployment nginx-demo --image=nginx'**
-**kubectl expose deployment nginx-demo --port=80 --type=NodePort**
-**kubectl get pods**
-**kubectl get svc**
+**'kubectl expose deployment nginx-demo --port=80 --type=NodePort'**
+**'kubectl get pods'**
+**'kubectl get svc'**
 
-**kubectl get svc nginx-demo**
+**'kubectl get svc nginx-demo'**
 using external IP addres (if there is a load balancer) you can access the app
